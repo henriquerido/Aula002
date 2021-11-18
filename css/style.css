@@ -6,6 +6,37 @@
 }
 
 body{
-    /* background-color: blueviolet;
-    color: whitesmoke */
+    text-align: center;
+    width: 100%;
+}
+
+.form{
+    background-color: #333  ;
+    color: whitesmoke;
+    border-radius: 20px;
+    width: 650px;
+    box-shadow: 0px 0px 4px #000;
+    text-align: center;
+    margin: 75px auto;
+    padding: 25px;
+}
+
+.campo {
+    text-align: center;   
+    margin-bottom: 10px;
+
+}
+
+.campo input, .salvar {
+    padding: 10px;
+    width: 320px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 4px #000;
+}
+
+.salvar {
+    border-radius: 20px;
+    box-shadow: white; 
+    width: 200px;
 }
